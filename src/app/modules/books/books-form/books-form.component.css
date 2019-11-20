@@ -1,0 +1,55 @@
+:host {
+    height: 100%;
+    display: flex;
+    flex-flow: nowrap column;
+    overflow: hidden;
+}
+  
+nav {
+justify-content: flex-start;
+}
+
+form label {
+color: #5C4A42;
+font-size: 1em;
+}
+
+input {
+letter-spacing: 0.6pt;
+box-sizing: border-box;
+width: 100%;
+margin-top: 0.5em;
+background: darkblue;
+padding: 1em;
+color: #ffff;
+display: block;
+font-size: .8em;
+border: none;
+}
+
+button {
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+font-size: 0.65em;
+padding-left: 3em;
+border: 0;
+height: 5em;
+background-color: darkblue;
+color: #ffff;
+}
+
+button:disabled {
+background-color: gray;
+}
+.error {
+color: red;
+}
+
+form {
+overflow: auto;
+padding: 2em 1em 0;
+}
+
+  

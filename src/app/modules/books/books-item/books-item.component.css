@@ -1,0 +1,36 @@
+:host {
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 20em;
+    font-family: Roboto;
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 100%;
+  }
+  
+  h4, h5 {
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: darkblue;
+    color: #ffff;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    align-self: center;
+  }
